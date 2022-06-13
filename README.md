@@ -2,7 +2,8 @@
 Simple Discord bot that posts tweets from a specified account in real time, designed for @CraigWeekend
 
 
-# appsettings.json
+## appsettings.json
+```
 {
     "Settings":
     {
@@ -26,3 +27,4 @@ Simple Discord bot that posts tweets from a specified account in real time, desi
         "DiscordToken": ""
     }
 }
+```
