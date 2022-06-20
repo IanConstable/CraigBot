@@ -55,13 +55,13 @@ namespace CraigBot
             
             //var twitterUser = twitterClient.Users.GetUserAsync(config["Settings:Settings:TwitterScreenName"]);
 
-            stream.AddFollow(28955739);
+            stream.AddFollow(1288226864457084928);
 
             stream.MatchingTweetReceived += async(sender, arguments) =>
             {
                 if(arguments.Tweet.InReplyToStatusId == null
                 && arguments.Tweet.IsRetweet == false
-                && arguments.Tweet.CreatedBy.ScreenName == "Wario64")
+                && arguments.Tweet.CreatedBy.ScreenName == "CraigWeekend")
                 {
                     Console.WriteLine("I detected a tweet");
                     await channel.SendMessageAsync
